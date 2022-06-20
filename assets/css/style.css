@@ -1,0 +1,183 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Quicksand";
+}
+
+.body{
+    background-color: #f8f9f9;
+}
+/* Header */
+
+.header {
+    height: 220px;
+}
+
+.local15 {
+    text-align: center;
+    align-items: center;
+}
+
+
+.inicio {
+    height: 170px;
+}
+
+.imagen__logo {
+    padding: 10px;
+    max-width: 300px;
+    max-height: 180px;
+    align-items: center;
+}
+
+/* Navbar */
+
+.navbar2{
+    padding:0px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li{
+    font-size: 20px;
+    text-align: center;
+    text-decoration:underline;
+}
+
+/* Textos */
+
+.foto__titulo{
+    background-color: white;
+    color: black;
+}
+
+.p__titulo{
+    background-color: white;
+    color: black;
+}
+
+.textos__grandes{
+    display: flex;
+    flex-direction: row;
+}
+
+.foto__textos{
+    max-width: 500px;
+    height: 300px;
+    object-fit: fill;
+    margin: 0%;
+}
+
+.texto__texto{
+    margin: 0%;
+    font-size: 13px;
+    text-align: center;
+}
+
+.tarjeta{
+    width: 500px;
+}
+
+/* Footer */
+
+.redes{
+    list-style-type: none;
+}
+
+.texto__ig{
+    text-decoration: none;
+    color: black;
+
+}
+
+.todo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.imagenfooter{
+    max-width: 300px;
+    height: 180px;
+}
+
+.logo{
+    max-width: 1cm;
+}
+
+
+/* Medias */
+
+@media (max-width: 567px){
+
+    .navbar2{
+        width: 520px;
+    }
+
+    .textos__grandes{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 768px){
+    .textos__grandes{
+        display: flex;
+        flex-direction: column;
+        margin-left: 80px;
+    }
+}
+
+@media (max-width:992px){
+    .navbar2{
+        width: 1015px;
+    }
+
+    .carrusel{
+        width: 1015px;
+    }
+
+    .textos__grandes{
+        display: flex;
+        flex-direction: column;
+        margin-left: 250px;
+    }
+}
+
+@media (max-width:1200px){
+    .textos__grandes{
+        display: flex;
+        flex-direction: column;
+        margin-left: 350px;
+    }
+}
+
+@media (max-width:1400px){
+    .imagen__logo{
+        margin-left: 400px;
+    }
+
+    .navbar2{
+        width: 1765px;
+    }
+
+    .carrusel{
+        width: 1765px;
+    }
+
+    .textos__grandes{
+        display: flex;
+        flex-direction: column;
+        margin-left: 600px;
+    }
+}
+    
+
+
+
+
+
+
