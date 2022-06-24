@@ -47,7 +47,6 @@
 }
 
 /* Textos */
-
 .foto__titulo{
     background-color: white;
     color: black;
@@ -114,6 +113,21 @@
     background-color: #f8f9f9;
 }
 
+.card-title{
+    font-size: 15px;
+}
+
+.card-text{
+    font-size: 12px;
+}
+
+.catalogo-texto{
+    font-size: 25px;
+}
+
+.imagen-catalogo{
+    max-width: 500px;
+}
 
 
 
